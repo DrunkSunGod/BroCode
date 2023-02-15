@@ -1,0 +1,131 @@
+body{
+    font-family : "Montserrat";
+}
+.navbar{
+    font-family : 'Varela Round' ;
+}
+#title{
+    background-color: #205295;
+    color : white ;
+}
+h1{
+    font-family: 'Montserrat' ;
+    font-weight: 600;
+    font-size : 3rem ;
+    line-height : 1.5 ;
+}
+.navbar{
+    padding-bottom : 4.5rem ;
+}
+#brandName{
+    font-family : 'Varela Round' ;
+    font-size : 1.5rem ;
+    font-weight : bold ;
+}
+.nav-item{
+    padding : 0 18px ;
+}
+#getready{
+    padding : 0 15% 0 15% ;
+}
+.title-img{
+    width : 110%;
+    margin-left : 40px ;
+    /* transform : rotate(5deg) ; */
+}
+.sign-btn{
+    margin : 5% 3% 5% 0  ;
+}
+#features{
+    font-family : "montserrat" ;
+    font-weight : 400 ;
+    margin : 10rem 0 ;
+}
+.featureimg{
+    color : #2C74B3 ;
+    width : 100% ;
+    padding : 5% ;
+    padding-bottom : 0 ;
+    margin : 0 auto ;
+}
+
+.featureimg:hover{
+    color : #205295 ;
+}
+.feature-desc{
+    line-height: 1.5;
+    width : 50% ;
+    margin : 0 auto ;
+    color : #8f8f8f ;
+}
+.feature-desc:hover{
+    color : black ;
+}
+.featureunit{
+    text-align :center ;
+}
+h3{
+    font-weight : 600 ;
+}
+#testimonials{
+    margin : 50px 0;
+    text-align : center ;
+    background-color : #205295 ;
+    color : white ;
+}
+.carousel-item{
+    padding : 7% 15%;
+}
+h2{
+    font-size : 2.5rem ;
+    line-height : 1.5 ;
+    font-family : "montserrat" ;
+    font-weight : 600 ;
+}
+.testimonial-img{
+    width : 10% ;
+    border-radius : 100% ;
+    margin : 20px ;
+}
+#explore{
+    text-align : center ;
+    padding : 5%;
+    padding-top : 0 ;
+}
+.exploresectionintro{
+   padding-bottom : 3% ;
+}
+.card{
+    margin : 20px ;
+    padding : 3% ;
+    text-align : center ;
+    font-family : "montserrat" ;
+}
+@media ( max-width : 1028px){
+    #title{
+        text-align : center ;
+    }
+}
+#cta{
+    padding : 7% 5% ;
+    background-color: #205295 ;
+    text-align : center ;
+    color : white ;
+}
+#footer{
+    padding : 3% 5% ;
+    text-align : center ;
+}
+.copyright{
+    color : #8f8f8f ;
+}
+.copyright:hover{
+    color : #0A2647 ;
+}
+.fa-brands{
+    color : black ;
+    margin : 30px ;
+}
+.fa-brands:hover{
+    color : #205295
+}

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BroCode</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;900&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Styling/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR DESIGN -->
+    <section id="title">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#" id="brandName">BroCode</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ms-auto">
+                <a class="nav-link" aria-current="page" href="#">
+                  <span class="nav-item">Explore</span>
+                </a>
+                <a class="nav-link" href="#"
+                  ><span class="nav-item">Contact</span></a
+                >
+                <a class="nav-link" href="#"
+                  ><span class="nav-item">Contribute</span></a
+                >
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <!-- TITLE -->
+
+        <div class="row" id="getready">
+          <div class="col-lg-6">
+            <h1>Get ready for technical interviews.</h1>
+            <button type="button" class="btn btn-lg btn-dark sign-btn">
+              <i class="fa-solid fa-arrow-right-to-bracket"></i> Sign in
+            </button>
+            <button type="button" class="btn btn-lg btn-outline-light sign-btn">
+              <i class="fa-solid fa-user-plus"></i> Sign up
+            </button>
+          </div>
+          <div class="col-lg-6">
+            <img
+              class="title-img"
+              src="Styling/BroCode-logo.png"
+              alt="image taken from freepik"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="row">
+        <div class="col-lg-4 featureunit">
+          <h3 class="featureheading">
+            <i class="fa-solid fa-circle-check featureimg"></i>
+            Get Everything Done
+          </h3>
+          <p class="feature-desc">
+            Cover all important interview related concepts using our famous SDE
+            sheet.
+          </p>
+        </div>
+        <div class="col-lg-4 featureunit">
+          <h3 class="featureheading">
+            <i class="fa-solid fa-bullseye featureimg"></i>Focused Practice
+          </h3>
+          <p class="feature-desc">
+            Practice questions according to tags and improve your skills
+          </p>
+        </div>
+        <div class="col-lg-4 featureunit">
+          <h3 class="featureheading">
+            <i class="fa-solid fa-clipboard-question featureimg"></i>Mock
+            Interview
+          </h3>
+          <p class="feature-desc">
+            Hands on practice through an interview with a top tech recruiter.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials">
+      <div
+        id="carouselExample"
+        class="carousel slide"
+        data-bs-ride="true"
+        data-bs-interval="3500"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2 class="inditestimonial">
+              All the credit for my success goes to BroCode. It was only because
+              of them that I was able to get into a top company like Google.
+            </h2>
+            <img
+              class="testimonial-img"
+              src="Styling/Sundar.png"
+              alt="sundar P"
+            />
+            <em>Sundar, CEO, Google</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="inditestimonial">
+              I had to make sure that I had all my ML concepts clear before
+              launching coursera, and BroCode left no stone unturned.
+            </h2>
+            <img
+              class="testimonial-img"
+              src="Styling/andrewng.jpg"
+              alt="Andrew NG"
+            />
+            <em>Andrew, co-founder, Coursera</em>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="explore">
+      <div class="exploresectionintro">
+        <h2>Start Solving</h2>
+        <p class="feature-desc">get going with 3 of our most used series.</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <h3>Fundamentals Of Programming</h3>
+            <h2>Free</h2>
+            <p>10 Lessons</p>
+            <p>50 Problems</p>
+            <p>Helps In Building A Strong Foundation.</p>
+            <button class="btn btn-md btn-outline-dark" type="button">
+              Begin
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <h3>Dyanamic Programming</h3>
+            <h2>$5</h2>
+            <p>54 Lessons</p>
+            <p>180 Problems</p>
+            <p>
+              Recursive, Memoized, tabulated, and space optimized solution of
+              each problem.
+            </p>
+            <button class="btn btn-md btn-outline-dark" type="button">
+              Begin
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <h3>Graphs</h3>
+            <h2>$9</h2>
+            <p>55 Lessons</p>
+            <p>120 Problems</p>
+            <p>
+              Learn All The Important Algorithms like Dijkstra, Prim And Much
+              More.
+            </p>
+            <button class="btn btn-md btn-outline-dark" type="button">
+              Begin
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="cta">
+      <h3>Get Better at Data Structures and Algorithms.</h3>
+      <button type="button" class="btn btn-lg btn-dark sign-btn">
+        <i class="fa-solid fa-arrow-right-to-bracket"></i> Sign in
+      </button>
+      <button type="button" class="btn btn-lg btn-light sign-btn">
+        <i class="fa-solid fa-user-plus"></i> Sign up
+      </button>
+    </section>
+    <footer id="footer">
+      <a class="fa-brands fa-twitter"></a>
+      <a class="fa-brands fa-instagram"></a>
+      <a class="fa-brands fa-linkedin"></a>
+      <a class="fa-brands fa-github"></a>
+      <p class="copyright">© Copyright BroCode</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
